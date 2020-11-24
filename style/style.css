@@ -13,14 +13,25 @@ html {
     border: 1px solid black;
 }
 
+.d-flex {
+    width: 96px;
+    height: 48px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
 
+.icon-sm {
+    border: 1px solid black;
+    height: 48px;
+    width: 48px;
+    justify-self: center;
+    align-self: center;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
-    .fasfa-search {
-        width: 90px;
-        height: 60px
-    }
 
 }

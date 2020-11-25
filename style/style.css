@@ -1,10 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
 html {
     margin: 0;
     padding: 0;
 }
 
+.wrapper{
+    display: grid;
+    grid-template-rows: 50px 980px 98% 1%;
+    font-family: 'Roboto', sans-serif;
+    grid-template-areas:
+      "d-sm-none"
+      "first-container"
+      "main-body"
+      "main-footer";
+}
 .d-sm-none {
-    display: none;
+    grid-area: d-sm-none;
+}
+.first-container {
+grid-area: first-container;
+}
+
+.main-body {
+grid-area: main-body;
+}
+
+.main-footer {
+grid-area: main-footer;
 }
 
 .first-logo {
@@ -17,21 +44,234 @@ html {
     width: 96px;
     height: 48px;
     display: flex;
-    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
+.d-flex a {
+    text-decoration: none;
+}
 
 .icon-sm {
+    display: flex;
     border: 1px solid black;
-    height: 48px;
+    height: 100%;
     width: 48px;
-    justify-self: center;
+    justify-items: center;
     align-self: center;
 }
+.fa-search{
+    color: rgb(88, 88, 88);
+    margin: auto auto auto auto;
+    font-size: 1.5em;  
+}
+.fa-bars{
+    color: orangered;
+    margin: auto auto auto auto;
+    font-size: 1.5em;
+}
+
+.nav-bar-rightside,
+.nav-bar-lowerpart,
+.navbar-row1-upperpart {
+ display: none;
+}
+.d-sm-none{
+display: flex;
+justify-content: space-between;
+border: 1px solid  rgb(88, 88, 88);
+}
+
+.first-container {
+  display: grid;
+  grid-template-rows: repeat(3, 280px);
+  gap: 10px;
+  grid-area: first-container ;
+  align-self: center;
+  grid-template-areas:
+    "article1-row2"
+    "article2-row2"
+    "article3-row2";
+}
+
+
+.row2-logo {
+    height:25px;
+}
+
+.article1-row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:
+      linear-gradient(
+        rgba(255, 0, 0, 0.45),
+        rgba(31, 17, 17, 0.45)
+      ),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/transparency-796x524.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: article1-row2;
+}
+.article-row2-title{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+.article-row2-title h1{
+margin-bottom: 5px;
+}
+
+.article-row2-title p{
+    font-size: .7em;
+}
+.articles-row2-dates {
+    display: flex;
+    color: white;
+    font-size: .7em;
+}
+.row2-logo {
+    visibility: hidden;
+    width: 300px;
+    height: 200px;
+    padding-left: 15px;
+  }
+  
+.icon{
+    margin-left:10px;
+    margin-right: 10px;
+    font-size: .7em;
+}
+
+.article2-row2{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(
+        rgba(206, 205, 205, 0.45),
+        rgba(10, 8, 8, 0.45)
+      ),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-2020-11-17T120921.079-796x417.png);
+    grid-area: article2-row2;
+  }
+  
+  .article3-row2 {
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(
+        rgba(206, 205, 205, 0.45),
+        rgba(10, 8, 8, 0.45)
+      ),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-796x417.png);
+    grid-area: article3-row2;
+  }
+
+
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
+.wrapper{
+    display: grid;
+    grid-template-rows: 50px 980px 98% 1%;
+    font-family: 'Roboto', sans-serif;
+    grid-template-areas:
+      "d-sm-none"
+      "first-container"
+      "main-body"
+      "main-footer";
+}
 
+.d-sm-none {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: d-sm-none;
+    grid-template-areas:
+   "logo-large-version header-row1 "
+   "logo-large-version header-row2 ";
+}
+.header-row1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    grid-area: header-row1;
+    grid-template-areas: 
+}
+
+.navbar-row1-upperpart {
+    display: flex;
+    grid-area: navbar-row1-upperpart;
+}
+.nav-bar-rightside{
+    display: flex;
+    grid-area: nav-bar-rightside;
+}
+
+.header-row2 {
+    display: flex;
+    justify-content: space-between;
+    grid-area: header-row2;
+}
+.nav-bar-lowerpart{
+    display: flex;
+    grid-area: nav-bar-lowerpart;
+}
+
+.d-flex{
+    display: flex;
+    grid-area: d-flex;
+}
+
+.icon{
+
+}
+
+
+.logo-large-version{
+    display: flex;
+    align-self: stretch;
+    grid-area:logo-large-version;
+}
+
+.first-logo{
+ width: 100%;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(3, 280px);
+    gap: 10px;
+    grid-area: first-container ;
+    align-self: center;
+    grid-template-areas:
+      "article1-row2 article2-row2"
+      "article1-row2 article3-row2";
+  }
+  
+  .article-row2-title{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+}
 }

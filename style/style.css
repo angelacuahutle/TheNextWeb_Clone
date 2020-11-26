@@ -207,6 +207,11 @@ margin-bottom: 5px;
 
 /* Latest news section */
 
+.latest-news {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
 .latest-news-container {
     display: flex;
     flex-direction: column;
@@ -214,11 +219,6 @@ margin-bottom: 5px;
 
 .latest-article-title {
     display: flex;
-}
-
-.latest-article-img-container {
-    
-
 }
 
 .latest-article-img {
@@ -232,6 +232,45 @@ margin-bottom: 5px;
 .latest-article-description {
     display: flex;
     flex-direction: column;
+}
+
+/* Funding section */
+
+.funding-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-investments {
+    background-color: #fffaf8;
+}
+
+.story-investment-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-investment-header img {
+    position: absolute;
+    width: 60px;
+    margin: 15px;
+}
+
+.story-investment-subheader {
+    background-color: rgba(255,68,34,.08);
+}
+
+.story-investment-subheader h4 {
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.story-investment-cardname {
+    background-color: #f42;
+    color: white;
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

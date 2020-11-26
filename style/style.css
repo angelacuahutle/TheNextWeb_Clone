@@ -261,16 +261,51 @@ margin-bottom: 5px;
 }
 
 .story-investment-subheader h4 {
-    padding-left: 60px;
+    padding-left: 90px;
     padding-top: 15px;
     padding-bottom: 15px;
 
+
+}
+
+.story-investment-subheader h4:first-child, h5 {
+    padding-left: 90px;
+
+}
+
+.story-investment-subheader h5 {
+    padding-bottom: 15px;
+    margin-top: -15px;
 }
 
 .story-investment-cardname {
     background-color: #f42;
     color: white;
+}
 
+.story-subheader {
+    display: flex;
+    flex-direction: column;
+}
+
+.story-investment-card {
+    border-bottom: 2px solid rgba(255,68,34,.25);
+    padding: 15px;
+
+}
+
+.story-investment-card li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.story-investment-footer {
+    padding: 15px;
+}
+
+.story-investment-footer span{
+    color: gray;
+    margin-left: 3px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

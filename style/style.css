@@ -239,9 +239,11 @@ margin-bottom: 5px;
 .funding-container {
     display: flex;
     flex-direction: column;
+    max-width: 1152px;
+    margin: 20px auto;
 }
 
-.story-investments {
+.story-investment {
     background-color: #fffaf8;
 }
 
@@ -264,13 +266,10 @@ margin-bottom: 5px;
     padding-left: 90px;
     padding-top: 15px;
     padding-bottom: 15px;
-
-
 }
 
 .story-investment-subheader h4:first-child, h5 {
     padding-left: 90px;
-
 }
 
 .story-investment-subheader h5 {
@@ -448,10 +447,18 @@ margin-bottom: 5px;
         font-size: 1em;
         padding: 10px;
     }
+
+    .story-investments {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .latest-news-container {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .d-lg-grid {
+        display: grid;
     }
 }

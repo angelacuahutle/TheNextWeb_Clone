@@ -32,8 +32,8 @@ Additional description about the project and its features.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/angelacuahutle)
-- Twitter: [@twitterhandle](https://twitter.com/AngelaCunaDev)
+- GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
 - LinkedIn: [LinkedIn]()
 
 

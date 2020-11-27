@@ -8,8 +8,6 @@ CSS linters issues addressed
 
 ![screenshot](./assets/thenextweb.png)
 
-
-
 Additional description about the project and its features.
 
 ## Built With
@@ -21,26 +19,6 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://angelacuahutle.github.io/TheNextWeb_Clone/)
-
-
-## Getting Started
-
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 
 
 ## Authors
@@ -61,11 +39,6 @@ Feel free to check the [issues page](https://github.com/angelacuahutle/TheNextWe
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

@@ -3,11 +3,10 @@
 > This project aims to clone TheNexWeb. Fully responsive for SM, MD y LG devices, such as smartphone, iPad and desktop screen. Use of media queries for breakpoints and Fontawesome for the icons! I used Flexbox and Grid applied for positioning
 CSS linters issues addressed
 
+(file:///home/angela/Desktop/thenextweb.png)
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-
-
-![screenshot](file:///home/angela/Desktop/thenextweb.png)
 
 
 Additional description about the project and its features.

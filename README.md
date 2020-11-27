@@ -1,14 +1,14 @@
 # TheNextWeb_Clone
-We will be cloninig TheNextWeb to make it responsive aiming to use media queries to degrade their site as the window size is reduced.
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# TheNextWeb_Clone
 
 > This project aims to TheNexWeb. Fully responsive for SM, MD y LG devices, such as smartphone, iPad and desktop screen. Use of media queries for breakpoints and Fontawesome for the icons! I used Flexbox and Grid applied for positioning
 CSS linters issues addressed
 
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+
 ![screenshot](./assets/thenextweb.png)
+
+
 
 Additional description about the project and its features.
 
@@ -51,9 +51,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/AngelaCunaDev)
 - LinkedIn: [LinkedIn]()
 
-👤 **Author2**
-
-## 🤝 Contributing
+## 🤝 
 
 Contributions, issues, and feature requests are welcome!
 

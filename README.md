@@ -1,7 +1,6 @@
 # TheNextWeb_Clone
 
-> This project aims to TheNexWeb. Fully responsive for SM, MD y LG devices, such as smartphone, iPad and desktop screen. Use of media queries for breakpoints and Fontawesome for the icons! I used Flexbox and Grid applied for positioning
-CSS linters issues addressed
+> This project aims to TheNexWeb. Fully responsive for SM, MD y LG devices, such as smartphone, iPad and desktop screen. Use of media queries for breakpoints and Fontawesome for the icons! I used Flexbox and Grid applied for positioning CSS linters issues addressed.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 

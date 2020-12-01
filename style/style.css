@@ -186,7 +186,6 @@ a {
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-2020-11-17T120921.079-796x417.png);
   grid-area: article2-row2;
   margin-bottom: 7px;
-
 }
 
 .article3-row2 {
@@ -332,7 +331,7 @@ h5 {
   margin-bottom: 5px;
   color: rgb(155, 153, 153);
   font-size: 13px;
-  font-family: ARS Maquette,Helvetica
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .story-investment-footer {
@@ -646,11 +645,11 @@ h5 {
     grid-area: d-flex;
   }
 
-.d-flex.ml-2 {
-  list-style: none;
-  font-size: 12px;
-  color: gray;
-}
+  .d-flex.ml-2 {
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+  }
 
   .first-container {
     display: grid;

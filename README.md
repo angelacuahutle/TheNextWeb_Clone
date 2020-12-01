@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/angelacuahutle/TheNextWeb_Clone/c0a037bd5e53a19253a04389406f2e6439de5fec/index.html)
 
 ## Authors
 

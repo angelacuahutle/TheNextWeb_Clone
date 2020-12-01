@@ -4,7 +4,6 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-
 ![screenshot](./assets/thenextweb.png)
 
 Additional description about the project and its features.
@@ -14,31 +13,29 @@ Additional description about the project and its features.
 - HTML5
 - CSS
 
-
 ## Live Demo
 
-[Live Demo Link](https://angelacuahutle.github.io/TheNextWeb_Clone/)
-
+[Live Demo Link]()
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/angelacuahutle)
-- Twitter: [@twitterhandle](https://twitter.com/AngelaCunaDev)
-- LinkedIn: [LinkedIn]()
+- GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
 
 ## 🤝 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/angelacuahutle/TheNextWeb_Clone/issues/1#issue-751109118).
+Feel free to check the [issues page](https://github.com/angelacuahutle/TheNextWeb_Clone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+
+![microverse](https://img.shields.io/badge/Microverse-blueviolet)

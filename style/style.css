@@ -235,6 +235,12 @@ a {
   flex-direction: column;
 }
 
+.d-flex.ml-2 {
+  list-style: none;
+  font-size: 12px;
+  color: gray;
+}
+
 /* Funding section */
 
 h2.Latest.funding-title {
@@ -324,10 +330,15 @@ h5 {
 .story-investment-card li {
   list-style-type: none;
   margin-bottom: 5px;
+  color: rgb(155, 153, 153);
+  font-size: 13px;
+  font-family: ARS Maquette,Helvetica
 }
 
 .story-investment-footer {
   padding: 15px;
+  color: rgb(71, 70, 70);
+  font-size: 12px;
 }
 
 .story-investment-footer span {
@@ -355,7 +366,7 @@ h5 {
   z-index: -100;
   object-fit: cover;
   height: 42vh;
-  max-width: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -634,6 +645,12 @@ h5 {
     display: flex;
     grid-area: d-flex;
   }
+
+.d-flex.ml-2 {
+  list-style: none;
+  font-size: 12px;
+  color: gray;
+}
 
   .first-container {
     display: grid;

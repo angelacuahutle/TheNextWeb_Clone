@@ -251,6 +251,27 @@ h2.Latest.funding-title {
   margin: 20px auto;
 }
 
+.funding-header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+}
+
+.right-menu {
+  color: #ff4422;
+}
+
+.right-menu li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+.story-investments {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .story-investment {
   background-color: #fffaf8;
 }
@@ -329,18 +350,27 @@ h3.article-title {
 
 .article-header {
   min-height: 230px;
-  max-height: 270px;
+  max-height: 521px;
   min-width: 304px;
-  max-width: 370px;
+  max-width: 695px;
+}
+
+.section-img {
+  max-width: 695px !important;
+  display: flex;
+  min-height: 230px;
+  max-height: 521px;
+  min-width: 304px;
+
 }
 
 .section-img img {
+  z-index: -100;
+  object-fit: cover;
   min-height: 230px;
-  max-height: 270px;
+  max-height: 521px;
   min-width: 304px;
-  max-width: 370px;
-  position: absolute;
-  z-index: -1;
+  max-width: 695px;
 }
 
 .section-header {
@@ -350,9 +380,9 @@ h3.article-title {
   justify-content: flex-end;
   margin-bottom: 0;
   min-height: 230px;
-  max-height: 270px;
+  max-height: 521px;
   min-width: 304px;
-  max-width: 370px;
+  max-width: 695px;
 }
 
 article.section-middle-articles {
@@ -364,7 +394,6 @@ article.section-middle-articles {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 3px;
-  max-width: 370px;
 }
 
 .section-middle-description {
@@ -622,8 +651,19 @@ article.section-middle-articles {
   }
   
   .story-investments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }
+
+  .right-menu {
     display: flex;
-    justify-content: space-around;
+  }
+
+  .right-menu li:not(:last-child):after {
+    content: "|";
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .sections {
@@ -664,9 +704,30 @@ article.section-middle-articles {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .feed-title h3 {
-    font-size: 10px;
+  .feed-title {
+    font-size: 16px;
+  }
 
+  .story-investments {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .funding-header {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+
+  .latest-article-description ul>li {
+    list-style-type: none;
+    color: gray;
+    margin-left: -3px;
+    margin-top: 5px;
+  }
+
+  .latest-article-description ul>li:nth-child(2) {
+    margin-left: 5px;
   }
 
   .d-lg-grid {
